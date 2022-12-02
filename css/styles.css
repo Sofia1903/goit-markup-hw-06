@@ -877,7 +877,6 @@ img {
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.06em;
-    margin-right: 10px;
     color: var(--heading-color);
 }
 .footer-btn:hover, .footer-btn:focus {
@@ -886,7 +885,7 @@ img {
 
 
 .footer-subscribe {
-   margin-left: 93px;
+   margin-left: auto;
     
 }
 .footer-form {
@@ -928,15 +927,17 @@ img {
     letter-spacing: 0.03em;
     display: flex;
     justify-content: center;
-    padding-top: 40px;
-    
+    width: 448px;
+    height: 23px;
+    margin-bottom: 12px;
 }
 .modal-form {
    width: 448px;
    height: 342px;
-   margin-top: 12px;
-   margin-left: auto;
-   margin-right: auto;
+   padding-left: 41px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   padding-right: 39px;
 }
 
 .modal-form-svg {
@@ -962,6 +963,7 @@ img {
     line-height: 1.8;
     letter-spacing: 0.06em;
     color: var(--heading-color);
+    
 }
 .modal-button:hover, .modal-button:focus {
     background-color: var(--buttons-hover);
@@ -976,6 +978,7 @@ textarea {
     flex-direction: column;
     margin-bottom: 10px;
     position: relative;
+    width: 448px;
 }
 .form-field:focus-within > .modal-form-svg {
     fill: var(--a-color);
@@ -1034,7 +1037,7 @@ textarea {
 .modal-btn-div {
     display: flex;
     justify-content: center;
-
+    width: 448px;
 }
 
 
@@ -1087,6 +1090,8 @@ textarea {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    width: 423px;
+    height: 24px;
 }
 .checkbox-a {
     font-weight: 400;
